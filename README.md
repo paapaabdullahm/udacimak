@@ -1,12 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-   font-weight: 400!important;
-   text-align: left!important;
-   vertical-align: top!important;
-}
-</style>
-
 # Udacimak
 Udacity Course Downloader
 
@@ -71,30 +62,34 @@ $ udacimak --version
 
 ## How to
 
-| **Usage:** |
-| ----------------------------------------------- |
-| &nbsp;udacimak `<command>` `<args>` `[options]` |
+**Usage:**
+&emsp;udacimak &emsp; `<command>` `<args>` `[options]`
 
 
-| **Options:** ||
-| ------------------- | ---------------------------- |
-| &nbsp;-v, --version | output the version number    |
-| &nbsp;-h, --help    | output usage information     |
+**Options:**
+&emsp;-v, --version &emsp; output the version number
+&emsp;-h, --help &emsp;&emsp;&nbsp; output usage information
 
 
-| **Commands:**  |||
-| ---------------------------------------------------- |-|-|
-| &nbsp;download&nbsp;`[options]`&nbsp;`[courseid...]` || Fetch course/Nanodegree data from Udacity and save them locally as JSON files. |
-||||
-| &nbsp;listnd || List user's enrolled and graduated Nanodegree. |
-||||
-| &nbsp;render `[options]` `<path>` || Render downloaded json course content into HTML by downloading all videos, creating text content, etc. |
-||||
-| &nbsp;renderdir `[options]` `<path>` || Render a whole directory of downloaded json course contents. |
-||||
-| &nbsp;settoken `<token>` || Save Udacity authentication token locally. |
-||||
-| &nbsp;login || Login to audacity and save the token locally. |
+**Commands:**
+&emsp;download&nbsp;`[options]`&nbsp;`[courseid...]` &emsp; Fetch course/Nanodegree data from
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Udacity and save them locally as
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; JSON files.
+
+&emsp;listnd &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; List user's enrolled and graduated
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Nanodegree.
+
+&emsp;render `[options]` `<path>` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Render downloaded json course content
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; into HTML by downloading all videos,
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; creating text content, etc.
+
+&emsp;renderdir `[options]` `<path>` &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; Render a whole directory of downloaded
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; json course contents.
+
+&emsp;settoken `<token>` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; Save Udacity authentication token locally.
+
+&emsp;login &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Login to audacity and save the token
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; locally.
 
 
 For more info on udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
