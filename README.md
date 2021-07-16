@@ -10,14 +10,14 @@ td, th {
 # Udacimak
 Udacity Course Downloader
 
-**Current Udacimak CLI Tag: latest**
+**Current Udacimak CLI Tag: v1.6.6**
 
 ## Install as native binary
 
 First export and persist version
 ```sh
-$ export UDACIMAK_VERSION="latest"
-$ echo 'UDACIMAK_VERSION="latest"' | sudo tee -a /etc/environment > /dev/null
+$ export UDACIMAK_VERSION="v1.6.6"
+$ echo 'UDACIMAK_VERSION="v1.6.6"' | sudo tee -a /etc/environment > /dev/null
 ```
 
 To update an already exported version (optional)
@@ -48,13 +48,13 @@ TTY_FLAG=``
 if [ -t 1 ]; then TTY_FLAG="-t"; fi
 
 exec docker run --rm -i ${TTY_FLAG} \
-     --volume ~/.udacimak:/root/.udacimak \
+     --volume ~/.udacimak:/.udacimak \
      --volume "$(pwd)":/downloads \
      --workdir /downloads \
      "pam79/udacimak:${UDACIMAK_VERSION}" "$@";
 ```
 
-Create the cache volume
+Create the .udacimak volume
 ```sh
 mkdir -p ~/.udacimak
 ```
