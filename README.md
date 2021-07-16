@@ -70,6 +70,7 @@ $ udacimak --version
 **Options:**
 
 &emsp;-v, --version &emsp; output the version number
+
 &emsp;-h, --help &emsp;&emsp;&nbsp; output usage information
 
 
