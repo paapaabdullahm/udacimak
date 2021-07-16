@@ -1,0 +1,8 @@
+.vault_pass
+.DS_Store
+.idea/
+.vscode/
+example/
+vendor/
+desktop.retry
+bookmarks.html
