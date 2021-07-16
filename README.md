@@ -91,5 +91,4 @@ $ udacimak --version
 &emsp;login &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Login to audacity and save the token
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; locally.
 
-
 For more info on udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
