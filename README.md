@@ -1,2 +1,2 @@
-# udacimak
+# Udacimak
 Udacity Course Downloader
