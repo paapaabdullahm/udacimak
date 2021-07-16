@@ -62,16 +62,19 @@ $ udacimak --version
 
 ## How to
 
-**Usage:** &emsp;
+**Usage:**
+
 &emsp;udacimak &emsp; `<command>` `<args>` `[options]`
 
 
-**Options:** &emsp;
+**Options:**
+
 &emsp;-v, --version &emsp; output the version number
 &emsp;-h, --help &emsp;&emsp;&nbsp; output usage information
 
 
-**Commands:** &emsp;
+**Commands:**
+
 &emsp;download&nbsp;`[options]`&nbsp;`[courseid...]` &emsp; Fetch course/Nanodegree data from
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Udacity and save them locally as
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; JSON files.
