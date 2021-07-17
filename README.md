@@ -32,22 +32,17 @@ Add the following docker run command to the file
 #!/bin/sh
 
 # A wrapper script for invoking udacimak with docker
-# Put this script in $PATH as udacimak
+# Put this script in $PATH as `udacimak`
 
 TTY_FLAG=``
 
 if [ -t 1 ]; then TTY_FLAG="-t"; fi
 
 exec docker run --rm -i ${TTY_FLAG} \
-     --volume ~/.udacimak:/.udacimak \
+     --volume ~/.udacimak:/root \
      --volume "$(pwd)":/downloads \
      --workdir /downloads \
      "pam79/udacimak:${UDACIMAK_VERSION}" "$@";
-```
-
-Create the .udacimak volume
-```sh
-mkdir -p ~/.udacimak
 ```
 
 Make script executable
