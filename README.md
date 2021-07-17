@@ -1,5 +1,5 @@
 # Udacimak
-Udacity Course Downloader
+Dockerized Udacity Course Downloader
 
 **Current Udacimak CLI Tag: v1.6.6**
 
