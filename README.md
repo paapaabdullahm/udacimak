@@ -64,7 +64,7 @@ $ udacimak --version
 
 **Usage:**
 
-&emsp;`udacimak <command> <args> [options]`
+&emsp;udacimak  `<command>` `<args>` `[options]`
 
 
 **Options:**
@@ -75,31 +75,14 @@ $ udacimak --version
 
 
 **Commands:**
-<table>
-<tr>
-    <td valign="top">download&nbsp;[options]&nbsp;[courseid...]</td>
-    <td>Fetch course/Nanodegree data from Udacity and save them locally as JSON files.</td>
-</tr>
-<tr>
-    <td valign="top">listnd</td>
-    <td>List user's enrolled and graduated Nanodegree.</td>
-</tr>
-<tr>
-    <td valign="top">render [options] [path]</td>
-    <td>Render downloaded json course content into HTML by downloading all videos, creating text content, etc.</td>
-</tr>
-<tr>
-    <td valign="top">renderdir [options] [path]</td>
-    <td>Render a whole directory of downloaded json course contents.</td>
-</tr>
-<tr>
-    <td valign="top">settoken [token]</td>
-    <td>Save Udacity authentication token locally.</td>
-</tr>
-<tr>
-    <td valign="top">login</td>
-    <td>Login to audacity and save the token locally.</td>
-</tr>
-</table>
+
+|`Command`    | `Description`   |
+|:---         |:---             |
+| download&nbsp;`[options]`&nbsp;`[courseid...]` | Fetch course/Nanodegree data from Udacity and save them locally as JSON files. |
+| listnd | List user's enrolled and graduated Nanodegree. |
+| render `[options]` `<path>` | Render downloaded json course content into HTML by downloading all videos, creating text content, etc. |
+| renderdir `[options]` `<path>` | Render a whole directory of downloaded json course contents. |
+| settoken `<token>` | Save Udacity authentication token locally. |
+| login | Login to audacity and save the token locally. |
 
 For more info on udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
