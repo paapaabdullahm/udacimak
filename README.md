@@ -64,7 +64,7 @@ $ udacimak --version
 
 **Usage:**
 
-&emsp;`udacimak [command] [args] [options]`
+&emsp;`udacimak <command> <args> [options]`
 
 
 **Options:**
@@ -77,28 +77,28 @@ $ udacimak --version
 **Commands:**
 <table>
 <tr>
-    <td style="border:none!important;" valign="top">download&nbsp;[options]&nbsp;[courseid]</td>
-    <td style="border:none!important;padding-bottom:16px;">Fetch course/Nanodegree data from Udacity and save them locally as JSON files.</td>
+    <td valign="top">download&nbsp;[options]&nbsp;[courseid...]</td>
+    <td>Fetch course/Nanodegree data from Udacity and save them locally as JSON files.</td>
 </tr>
 <tr>
-    <td style="border:none!important;" valign="top">listnd</td>
-    <td style="border:none!important;padding-bottom:16px;">List user's enrolled and graduated Nanodegree.</td>
+    <td valign="top">listnd</td>
+    <td>List user's enrolled and graduated Nanodegree.</td>
 </tr>
 <tr>
-    <td style="border:none!important;" valign="top">render [options] [path]</td>
-    <td style="border:none!important;padding-bottom:16px;">Render downloaded json course content into HTML by downloading all videos, creating text content, etc.</td>
+    <td valign="top">render [options] [path]</td>
+    <td>Render downloaded json course content into HTML by downloading all videos, creating text content, etc.</td>
 </tr>
 <tr>
-    <td style="border:none!important;" valign="top">renderdir [options] [path]</td>
-    <td style="border:none!important;padding-bottom:16px;">Render a whole directory of downloaded json course contents.</td>
+    <td valign="top">renderdir [options] [path]</td>
+    <td>Render a whole directory of downloaded json course contents.</td>
 </tr>
 <tr>
-    <td style="border:none!important;" valign="top">settoken [token]</td>
-    <td style="border:none!important;padding-bottom:16px;">Save Udacity authentication token locally.</td>
+    <td valign="top">settoken [token]</td>
+    <td>Save Udacity authentication token locally.</td>
 </tr>
 <tr>
-    <td style="border:none!important;" valign="top">login</td>
-    <td style="border:none!important;padding-bottom:16px;">Login to audacity and save the token locally.</td>
+    <td valign="top">login</td>
+    <td>Login to audacity and save the token locally.</td>
 </tr>
 </table>
 
