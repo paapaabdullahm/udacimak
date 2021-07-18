@@ -83,38 +83,31 @@ $ udacimak --version
 
 **Examples:**
 
-1: Authenticate via login
-
+1: Authenticate via login &nbsp;
 `$ udacimak login`
 
 
-2: Authenticate via token
-
+2: Authenticate via token &nbsp;
 `$ udacimak settoken YOUR_AUTH_TOKEN`
 
 
-3: List your registered Nanodegree keys
-
+3: List your registered Nanodegree keys &nbsp;
 `$ udacimak listnd`
 
 
-4: Download course content as JSON using keys obtained from _3:_ above
-
+4: Download course content as JSON using keys obtained from _3:_ above &nbsp;
 `$ udacimak download nd001`
 
 
-5: Download course content as JSON using free course keys from url
-
+5: Download course content as JSON using free course keys from url &nbsp;
 `$ udacimak download ud281`
 
 
-6: Download multiple course contents as JSON
-
+6: Download multiple course contents as JSON &nbsp;
 `$ udacimak download nd001 nd002 ud281`
 
 
-7: Render downloaded JSON (e.g: _React v2.0.0_) as local viewable content
-
+7: Render downloaded JSON (e.g: _React v2.0.0_) as local viewable content &nbsp;
 `$ udacimak render 'React v2.0.0'`
 
 
