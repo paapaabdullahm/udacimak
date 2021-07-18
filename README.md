@@ -80,4 +80,35 @@ $ udacimak --version
 | settoken `<token>` | Save Udacity authentication token locally. |
 | login | Login to audacity and save the token locally. |
 
+
+**Examples:**
+
+1: Authenticate via login
+`$ udacimak login`
+
+
+2: Authenticate via token
+`$ udacimak settoken YOUR_AUTH_TOKEN`
+
+
+3: List your registered Nanodegree keys
+`$ udacimak listnd`
+
+
+4: Download course content as JSON using keys obtained from _3:_ above
+`$ udacimak download nd001`
+
+
+5: Download course content as JSON using free course keys from url
+`$ udacimak download ud281`
+
+
+6: Download multiple course contents as JSON
+`$ udacimak download nd001 nd002 ud281`
+
+
+7: Render downloaded JSON (e.g: _React v2.0.0_) as local viewable content
+`$ udacimak render 'React v2.0.0'`
+
+
 For more info on udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
