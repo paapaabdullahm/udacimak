@@ -7,7 +7,7 @@ Dockerized Udacity Course Downloader.
 
 Check this [pam79/udacimak](https://github.com/pam79/udacimak) Docker [image](https://hub.docker.com/repository/docker/pam79/udacimak) out. It works out of the box with the latest and greatest of everything required to run Udacimak on your machine. The only requirement is [Docker](https://www.docker.com/get-started). No need for any hacks - it just works. 
 
-Star it and get social with it. Or you won't drink Bissap today 😃
+Star it and get social with it, or you won't drink _Bissap_ again 😃
 
 ![Udacimak Example](https://raw.githubusercontent.com/wiki/udacimak/udacimak/img/example-download.gif)
 
