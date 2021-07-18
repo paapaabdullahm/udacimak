@@ -111,4 +111,4 @@ $ udacimak --version
 `$ udacimak render 'React v2.0.0'`
 
 
-For more info on udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
+For more info on Udacimak, visit their [official wiki page](https://github.com/udacimak/udacimak/wiki).
