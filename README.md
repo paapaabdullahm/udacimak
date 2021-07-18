@@ -1,7 +1,7 @@
 # Udacimak
 Dockerized Udacity Course Downloader
 
-**Current Udacimak CLI Tag: v1.6.6**
+**Current Udacimak CLI Tag: [v1.6.6](https://github.com/udacimak/udacimak/releases/tag/v1.6.6)**
 
 ## Install as native binary
 
