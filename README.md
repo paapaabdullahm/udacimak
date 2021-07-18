@@ -5,7 +5,7 @@ Dockerized Udacity Course Downloader.
 
 **Current Udacimak CLI Tag: [v1.6.6](https://github.com/udacimak/udacimak/releases/tag/v1.6.6)**
 
-Check this [pam79/udacimak](https://github.com/pam79/udacimak) Docker [image](https://hub.docker.com/repository/docker/pam79/udacimak) out. It works out of the box with the latest and greatest of everything required to run Udacimak on your machine. The only requirement is [Docker](https://www.docker.com/get-started). No need for any hacks - it just works. 
+Check this [pam79/udacimak](https://github.com/pam79/udacimak) Docker [image](https://hub.docker.com/repository/docker/pam79/udacimak) out. It works out of the box with the latest and greatest of everything required to run [Udacimak](https://github.com/udacimak/udacimak) on your machine. The only requirement is [Docker](https://www.docker.com/get-started). No need for any hacks - it just works. 
 
 Star it and get social with it, or you won't drink _Bissap_ again 😃
 
