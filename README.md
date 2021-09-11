@@ -1,7 +1,8 @@
 # Udacimak
-Dockerized Udacity Course Downloader.
 
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/pam79/udacimak?style=for-the-badge)&ensp;![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/pam79/udacimak?style=for-the-badge)&ensp;![Docker Pulls](https://img.shields.io/docker/pulls/pam79/udacimak?style=for-the-badge)
+
+Dockerized Udacity Course Downloader.
 
 **Current Udacimak CLI Tag: [v1.6.6](https://github.com/udacimak/udacimak/releases/tag/v1.6.6)**
 
