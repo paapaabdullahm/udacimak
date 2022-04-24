@@ -80,8 +80,8 @@ $ udacimak --version
 
 **Commands:**
 
-|`Command`    | `Description`   |
-|:---         |:---             |
+|Command    | Description     |
+|:---       |:---             |
 | download&nbsp;`[options]`&nbsp;`[courseid...]` | Fetch course/Nanodegree data from Udacity and save them locally as JSON files. |
 | listnd | List user's enrolled and graduated Nanodegree. |
 | render `[options]` `<path>` | Render downloaded json course content into HTML by downloading all videos, creating text content, etc. |
